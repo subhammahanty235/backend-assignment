@@ -9,8 +9,10 @@ const fetchCoin = async (coinId) => {
         'x-cg-demo-api-key': 'CG-MTTyHX71U6vCiSWVAo4cZw9E'
       }
     };
+    console.log("Here -----")
     const response = await axios.get(url, options);
     console.log(response.data)
+    console.log(response);
     
     const filteredData = fetchRequiredFields(response.data)
     return filteredData;
