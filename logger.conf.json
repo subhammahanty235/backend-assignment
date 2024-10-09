@@ -1,0 +1,12 @@
+{
+    "database_type": "nosql",
+    "text": {
+        "file_path": "./logs/log.txt",
+        "enable_log_security": false,
+        "log_security_encryption_key": "no need"
+    },
+    "nosql": {
+        "connectionString": "mongodb+srv://subham235:subham1234@cluster0.wuy84.mongodb.net/coinxAssignment?retryWrites=true&w=majority" ,
+        "collectionName": "apilogs"
+    }
+}
