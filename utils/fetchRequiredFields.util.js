@@ -8,7 +8,7 @@ const fetchRequiredFields = (response) => {
         marketCap: market_cap.usd,
         change24h: price_change_24h
     };
-    console.log("here ------------ 2")
+    
     return requiredData;
 }
 
